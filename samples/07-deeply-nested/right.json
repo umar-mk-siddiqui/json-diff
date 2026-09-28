@@ -1,0 +1,22 @@
+{
+  "app": {
+    "services": {
+      "api": {
+        "http": {
+          "server": {
+            "tls": {
+              "enabled": true,
+              "cipher": "TLS_AES_256_GCM_SHA384",
+              "cert": { "path": "/etc/ssl/api.pem", "expiresOn": "2027-12-31" }
+            }
+          }
+        }
+      },
+      "worker": {
+        "queue": {
+          "retry": { "max": 5, "backoff": { "type": "exponential", "baseMs": 200, "jitter": true } }
+        }
+      }
+    }
+  }
+}

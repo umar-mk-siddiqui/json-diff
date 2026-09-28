@@ -1,0 +1,15 @@
+{
+  "name": "compare-2-json",
+  "version": "1.0.0",
+  "description": "Structural diff of two (large) JSON files with a readable Markdown report",
+  "type": "module",
+  "main": "json-diff.js",
+  "bin": { "json-diff": "json-diff.js" },
+  "scripts": {
+    "test": "node --test",
+    "samples": "node scripts/samples.js",
+    "generate:large": "node scripts/generate-large.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}

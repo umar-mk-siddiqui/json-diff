@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "page": { "number": 1, "size": 3, "total": 42 },
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customer": { "id": 501, "name": "Asha Rao", "tier": "gold" },
+      "items": [
+        { "sku": "WM-100", "qty": 1, "price": 1299 },
+        { "sku": "KB-200", "qty": 1, "price": 2499 }
+      ],
+      "total": 3798,
+      "status": "shipped",
+      "tags": ["priority"]
+    },
+    {
+      "id": "ORD-1002",
+      "customer": { "id": 502, "name": "Ravi Kumar", "tier": "silver" },
+      "items": [{ "sku": "HD-300", "qty": 2, "price": 899 }],
+      "total": 1798,
+      "status": "processing",
+      "tags": []
+    },
+    {
+      "id": "ORD-1003",
+      "customer": { "id": 503, "name": "Meera N", "tier": "bronze" },
+      "items": [{ "sku": "CB-400", "qty": 3, "price": 199 }],
+      "total": 597,
+      "status": "cancelled",
+      "tags": ["refund"]
+    }
+  ]
+}

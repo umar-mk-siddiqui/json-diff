@@ -1,0 +1,7 @@
+{
+  "id": 1,
+  "name": "Asha",
+  "email": "asha@example.com",
+  "phone": "+91-9000000001",
+  "address": { "city": "Bengaluru", "pin": "560001" }
+}

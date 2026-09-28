@@ -1,0 +1,8 @@
+{
+  "count": 42,
+  "enabled": true,
+  "tags": ["a", "b", "c"],
+  "meta": { "source": "api" },
+  "limits": { "min": 10, "max": 20 },
+  "owner": 7
+}

@@ -1,0 +1,4 @@
+{
+  "arrayKey": ["id"],
+  "ignore": ["$.meta.generatedAt", "$.meta.requestId", "$.items[*].updatedAt"]
+}

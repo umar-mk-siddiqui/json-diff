@@ -1,0 +1,11 @@
+{
+  "first name": "Asha",
+  "a.b": 1,
+  "": "empty key",
+  "naïve": "x",
+  "pipe|key": "a|b",
+  "quote\"key": 1,
+  "123": "numeric key",
+  "tick": "use `npm test`",
+  "multi": "line1\nline2"
+}

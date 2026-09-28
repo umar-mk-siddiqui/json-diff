@@ -1,0 +1,7 @@
+{
+  "id": 1,
+  "name": "Asha",
+  "email": "asha@example.com",
+  "address": { "city": "Bengaluru", "pin": "560001", "landmark": "Near MG Road" },
+  "preferences": { "newsletter": true, "language": "en" }
+}

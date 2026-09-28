@@ -1,0 +1,7 @@
+{
+  "meta": { "generatedAt": "2026-09-28T18:30:00Z", "requestId": "xyz-9", "version": "1.1" },
+  "items": [
+    { "id": 1, "qty": 3, "updatedAt": "2026-09-28" },
+    { "id": 2, "qty": 5, "updatedAt": "2026-09-28" }
+  ]
+}

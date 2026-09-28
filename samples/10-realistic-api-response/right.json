@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "page": { "number": 1, "size": 3, "total": 43 },
+  "orders": [
+    {
+      "id": "ORD-1002",
+      "customer": { "id": 502, "name": "Ravi Kumar", "tier": "gold" },
+      "items": [{ "sku": "HD-300", "qty": 2, "price": 899 }],
+      "total": 1798,
+      "status": "shipped",
+      "tags": [],
+      "shipping": { "carrier": "BlueDart", "awb": "BD123456" }
+    },
+    {
+      "id": "ORD-1001",
+      "customer": { "id": 501, "name": "Asha Rao", "tier": "gold" },
+      "items": [
+        { "sku": "WM-100", "qty": 1, "price": 1299 },
+        { "sku": "KB-200", "qty": 2, "price": 2499 }
+      ],
+      "total": 6297,
+      "status": "shipped",
+      "tags": ["priority", "gift"]
+    },
+    {
+      "id": "ORD-1004",
+      "customer": { "id": 504, "name": "John D", "tier": "silver" },
+      "items": [{ "sku": "WM-100", "qty": 1, "price": 1299 }],
+      "total": 1299,
+      "status": "processing",
+      "tags": []
+    }
+  ]
+}

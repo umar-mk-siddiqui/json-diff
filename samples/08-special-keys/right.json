@@ -1,0 +1,11 @@
+{
+  "first name": "Asha K",
+  "a.b": 2,
+  "": "still empty",
+  "naïve": "y",
+  "pipe|key": "a|b|c",
+  "quote\"key": 2,
+  "123": "changed",
+  "tick": "use `node --test`",
+  "multi": "line1\nline2\nline3"
+}

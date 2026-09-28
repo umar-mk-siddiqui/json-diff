@@ -1,0 +1,9 @@
+{
+  "scores": [10, 25, 30, 40, 50],
+  "matrix": [[1, 2], [3, 5]],
+  "steps": ["build", "deploy"],
+  "log": [
+    { "level": "info", "msg": "start" },
+    { "level": "error", "msg": "slow" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Wireless Mouse",
+  "sku": "WM-100",
+  "dimensions": { "width": 6.2, "height": 3.8, "depth": 11.4 },
+  "colors": ["Black", "White"],
+  "discontinued": false,
+  "notes": null
+}

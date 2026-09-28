@@ -1,0 +1,8 @@
+{
+  "users": [
+    { "id": 4, "name": "John", "role": "viewer", "active": true },
+    { "id": 1, "name": "Asha", "role": "admin", "active": true },
+    { "id": 3, "name": "Meera", "role": "editor", "active": true },
+    { "id": 5, "name": "Sara", "role": "viewer", "active": true }
+  ]
+}
